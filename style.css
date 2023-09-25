@@ -1,0 +1,132 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px 0 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header_title h1 {
+  font-weight: 900;
+}
+
+.header_menu img {
+  width: 32px;
+  margin-right: 88px;
+}
+
+.header_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_icons img {
+  width: 32px;
+  margin-right: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  /* 요소들을 서로 떨어트려주는 효과 */
+  margin-top: 50px;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main_square01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main_square02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main_square03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main_square04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main_square05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main_square06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.main_square_contents {
+  width: 60px;
+  height: 60px;
+  border: solid 3px #ededed;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* 요소들을 서로 떨어트려주는 효과 */
+  margin-top: 20px;
+}
+
+.footer_key01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer_key02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer_key03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_key_contents {
+  width: 50px;
+  background-color: #e9ebf0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 8px;
+}
+
+.footer_key_special {
+  width: 80px;
+  font-size: 16px;
+  background-color: #e9ebf0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 8px;
+}
